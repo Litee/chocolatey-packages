@@ -7,15 +7,15 @@
     <authors>Apache Groovy</authors>
     <owners>Lite</owners>
     <summary>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</summary>
-    <description>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.</description>
+    <description>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming. Note that to use Groovy you should have Java 1.6+ installed.</description>
     <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/groovy</packageSourceUrl>
     <projectSourceUrl>https://github.com/apache/groovy</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/groovy/groovy-logo.png</iconUrl>
-    <copyright>© 2003-2016 the Apache Groovy project</copyright>
+    <copyright>2003-2016 the Apache Groovy project</copyright>
     <licenseUrl>https://github.com/apache/groovy/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>groovy java lang</tags>
+    <tags>groovy java lang admin</tags>
     <releaseNotes>http://www.groovy-lang.org/changelogs/changelog-2.4.7.html</releaseNotes>
   </metadata>
   <files>
