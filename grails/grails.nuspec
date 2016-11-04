@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>grails</id>
+    <version>3.2.2</version>
+    <title>Grails</title>
+    <authors>Graeme Rocher</authors>
+    <owners>twistedstream, Lite</owners>
+    <summary>Grails is an Open Source, full stack, web application framework for the JVM.</summary>
+    <description>Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.
+      This package assumes that the Java JDK has already been installed and that the JAVA_HOME machine environment variable has been set, pointing to it.
+      The specific Grails version will be installed to %chocolatey_bin_root%.  
+      After installing, this package will set the GRAILS_HOME environment variable and will add the GRAILS_HOME\bin to the machine PATH.
+    </description>
+    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/grails</packageSourceUrl>
+    <projectUrl>http://grails.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/grails/grails-logo.jpg</iconUrl>
+    <copyright>2009-2016 SpringSource</copyright>
+    <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>Grails Groovy Java MVC web</tags>
+    <releaseNotes>Fixed installer problems, upgraded to Grails 3.2.2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
