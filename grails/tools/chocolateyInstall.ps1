@@ -23,5 +23,5 @@ Install-ChocolateyZipPackage `
 	-Checksum $checksum `
 	-ChecksumType 'sha256'
 
-Install-ChocolateyEnvironmentVariable "GRAILS_HOME" $grails_home 'Machine'
-Install-ChocolateyPath "%GRAILS_HOME%\bin" Machine
+Install-ChocolateyEnvironmentVariable -VariableName "GRAILS_HOME" -VariableValue $grails_home -VariableType 'Machine'
+Install-ChocolateyPath -PathToInstall "$grails_home\bin" -PathType 'Machine'

@@ -3,7 +3,7 @@ $packageVersion = $env:chocolateyPackageVersion
 $toolsDir = Get-ToolsLocation
 $grails_home = Join-Path $toolsDir "$packageName-$packageVersion"
 
-Install-ChocolateyEnvironmentVariable "GRAILS_HOME" $null 'Machine'
+Install-ChocolateyEnvironmentVariable -VariableName "GRAILS_HOME" -VariableValue $null -VariableType 'Machine'
 
 Remove-Item $grails_home -Recurse -Force
 
