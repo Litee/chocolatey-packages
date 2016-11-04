@@ -24,8 +24,8 @@ Install-ChocolateyZipPackage `
 	-Checksum $checksum `
 	-ChecksumType 'sha256'
 
-Install-ChocolateyEnvironmentVariable "GROOVY_HOME" $groovy_home 'Machine'
-Install-ChocolateyPath "%GROOVY_HOME%\bin" Machine
+Install-ChocolateyEnvironmentVariable -VariableName "GROOVY_HOME" -VariableValue $groovy_home -VariableType 'Machine'
+Install-ChocolateyPath -PathToInstall "%GROOVY_HOME%\bin" -PathType 'Machine'
 
 # Removing shim from previous version
 Uninstall-BinFile -Name 'groovy' -Path $groovy_bat
