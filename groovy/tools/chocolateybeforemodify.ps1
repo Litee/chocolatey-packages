@@ -1,7 +1,6 @@
-﻿
-$packageName    = $env:chocolateyPackageName
+﻿$packageName    = $env:chocolateyPackageName
 $packageVersion = $env:chocolateyPackageVersion
-$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation   = Join-Path $toolsDir "$packageName-$packageVersion"
+$toolsDir = Get-ToolsLocation
+$groovy_home   = Join-Path $toolsDir "$packageName-$packageVersion"
 
-Remove-Item $fileLocation -Recurse -Force
+Remove-Item $groovy_home -Recurse -Force

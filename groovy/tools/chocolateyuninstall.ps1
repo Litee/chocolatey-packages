@@ -1,10 +1,10 @@
 ﻿$packageName = 'groovy'
-$version = $env:chocolateyPackageVersion
-
-$installDir = Split-Path -parent $MyInvocation.MyCommand.Definition
-
-$groovy_home = Join-Path $installDir "$packageName-$version"
-$groovy_bat = Join-Path $groovy_home 'bin/groovy.bat'
+$packageVersion = $env:chocolateyPackageVersion
+$toolsDir = Get-ToolsLocation
+$groovy_home = Join-Path $toolsDir "$packageName-$packageVersion"
 
 Install-ChocolateyEnvironmentVariable "GROOVY_HOME" $null 'Machine'
-Uninstall-BinFile -Name 'groovy' -Path $groovy_bat
+
+Remove-Item $groovy_home -Recurse -Force
+
+"Please manually remove Grails (%GROOVY_HOME%\bin) from the PATH environment variable."
