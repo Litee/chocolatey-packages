@@ -18,7 +18,7 @@
     <copyright>2009-2016 SpringSource</copyright>
     <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>Grails Groovy Java MVC web</tags>
+    <tags>Grails Groovy Java MVC web admin</tags>
     <releaseNotes>Fixed installer problems, upgraded to Grails 3.2.2</releaseNotes>
   </metadata>
   <files>

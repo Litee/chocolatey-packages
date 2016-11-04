@@ -7,19 +7,19 @@ if (-not $majorRelease.Equals("10") -or -not $minorRelease.Equals("3"))
 }
 
 $packageName = 'grails'
-$version = $env:chocolateyPackageVersion
+$packageVersion = $env:chocolateyPackageVersion
 $checksum = '62134E359D13D59401FE93F7A30C32D6A3A68943FD2CA8FC483F4A69CC0BB03F'
-$url = "https://github.com/grails/grails-core/releases/download/v$version/grails-$version.zip"
-$binRoot = Get-ToolsLocation
-$grails_home = Join-Path $binRoot "$packageName-$version"
+$url = "https://github.com/grails/grails-core/releases/download/v$packageVersion/grails-$packageVersion.zip"
+$toolsDir = Get-ToolsLocation
+$grails_home = Join-Path $toolsDir "$packageName-$packageVersion"
  
 # Creating bin folder if it is not there yet
-New-Item -Path $binRoot -type directory -Force
+New-Item -Path $toolsDir -type directory -Force
 
 Install-ChocolateyZipPackage `
 	-PackageName $packageName `
 	-Url $url `
-	-UnzipLocation $binRoot `
+	-UnzipLocation $toolsDir `
 	-Checksum $checksum `
 	-ChecksumType 'sha256'
 

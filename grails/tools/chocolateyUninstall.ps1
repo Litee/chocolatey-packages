@@ -1,7 +1,7 @@
 ﻿$packageName = 'grails'
-$version = $env:chocolateyPackageVersion
-$binRoot = Get-ToolsLocation
-$grails_home = Join-Path $binRoot "$packageName-$version"
+$packageVersion = $env:chocolateyPackageVersion
+$toolsDir = Get-ToolsLocation
+$grails_home = Join-Path $toolsDir "$packageName-$packageVersion"
 
 Install-ChocolateyEnvironmentVariable "GRAILS_HOME" $null 'Machine'
 
