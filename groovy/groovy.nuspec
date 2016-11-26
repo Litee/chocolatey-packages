@@ -9,9 +9,8 @@
     <summary>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</summary>
     <description>
       Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
-      This package assumes that the Java JDK 1.6 or newer has already been installed and that the JAVA\_HOME machine environment variable has been set, pointing to it.
-      The specific Groovy version will be installed to %chocolatey\_bin\_root%.  
-      After installing, this package will set the GROOVY\_HOME environment variable and will add the GROOVY\_HOME\bin to the machine PATH.
+      This package assumes that the Java JDK 1.6 or newer has already been installed and that the JAVA\_HOME machine environment variable is pointing to installed JDK. I do not reference JDK Chocolatey package here to stay flexible.
+      The specific Groovy version will be installed to the folder defined by %chocolatey\_bin\_root% environment variable. After installing, this package will set the GROOVY\_HOME environment variable and will add the GROOVY\_HOME\bin folder to the machine PATH.
     </description>
     <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/groovy</packageSourceUrl>
