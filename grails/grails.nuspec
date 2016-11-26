@@ -2,15 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>grails</id>
-    <version>3.2.2</version>
+    <version>3.2.3</version>
     <title>Grails</title>
     <authors>Graeme Rocher</authors>
     <owners>twistedstream, Lite</owners>
     <summary>Grails is an Open Source, full stack, web application framework for the JVM.</summary>
     <description>Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.
-      This package assumes that the Java JDK has already been installed and that the JAVA\_HOME machine environment variable has been set, pointing to it.
-      The specific Grails version will be installed to %chocolatey\_bin\_root%.  
-      After installing, this package will set the GRAILS\_HOME environment variable and will add the GRAILS\_HOME\bin to the machine PATH.
+      This package assumes that the Java JDK has already been installed and that the JAVA\_HOME machine environment variable is pointing to installed JDK. I do not reference JDK Chocolatey package here to stay flexible.
+      The specific Grails version will be installed to folder defined by %chocolatey\_bin\_root% environment variable. After installing, this package will set the GRAILS\_HOME environment variable and will add the GRAILS\_HOME\bin folder to the machine PATH.
     </description>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/grails</packageSourceUrl>
     <projectUrl>http://grails.org/</projectUrl>
@@ -19,7 +18,7 @@
     <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>Grails Groovy Java MVC web admin</tags>
-    <releaseNotes>Fixed installer problems, upgraded to Grails 3.2.2</releaseNotes>
+    <releaseNotes>Upgraded to Grails 3.2.3</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
