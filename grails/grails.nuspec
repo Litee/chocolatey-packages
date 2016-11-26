@@ -8,9 +8,9 @@
     <owners>twistedstream, Lite</owners>
     <summary>Grails is an Open Source, full stack, web application framework for the JVM.</summary>
     <description>Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.
-      This package assumes that the Java JDK has already been installed and that the JAVA_HOME machine environment variable has been set, pointing to it.
-      The specific Grails version will be installed to %chocolatey_bin_root%.  
-      After installing, this package will set the GRAILS_HOME environment variable and will add the GRAILS_HOME\bin to the machine PATH.
+      This package assumes that the Java JDK has already been installed and that the JAVA\_HOME machine environment variable has been set, pointing to it.
+      The specific Grails version will be installed to %chocolatey\_bin\_root%.  
+      After installing, this package will set the GRAILS\_HOME environment variable and will add the GRAILS\_HOME\bin to the machine PATH.
     </description>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/grails</packageSourceUrl>
     <projectUrl>http://grails.org/</projectUrl>
