@@ -14,9 +14,6 @@ $toolsDir = Get-ToolsLocation
 $groovy_home = Join-Path $toolsDir "$packageName-$packageVersion"
 $groovy_bat = Join-Path $groovy_home 'bin/groovy.bat'
 
-# Creating bin folder if it is not there yet
-New-Item -Path $toolsDir -type directory -Force
-
 Install-ChocolateyZipPackage `
 	-PackageName $packageName `
 	-Url $url `

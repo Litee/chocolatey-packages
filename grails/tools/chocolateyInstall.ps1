@@ -13,9 +13,6 @@ $url = "https://github.com/grails/grails-core/releases/download/v$packageVersion
 $toolsDir = Get-ToolsLocation
 $grails_home = Join-Path $toolsDir "$packageName-$packageVersion"
  
-# Creating bin folder if it is not there yet
-New-Item -Path $toolsDir -type directory -Force
-
 Install-ChocolateyZipPackage `
 	-PackageName $packageName `
 	-Url $url `
