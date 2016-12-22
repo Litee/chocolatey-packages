@@ -8,7 +8,7 @@ if (-not $majorRelease.Equals("10") -or -not $minorRelease.Equals("3"))
 
 $packageName = 'grails'
 $packageVersion = $env:chocolateyPackageVersion
-$checksum = '1770D6E16CBB9F8F4F41B00EBEAF0BB837343B99BAB100FC2FC136E6C46E471B'
+$checksum = '9CC3F9620BA8261A845BECA3A0D63936B7DC529B41BA1D29B0A9D84C212AC1C7'
 $url = "https://github.com/grails/grails-core/releases/download/v$packageVersion/grails-$packageVersion.zip"
 $toolsDir = Get-ToolsLocation
 $grails_home = Join-Path $toolsDir "$packageName-$packageVersion"
