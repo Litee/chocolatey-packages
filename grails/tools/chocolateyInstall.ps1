@@ -1,12 +1,4 @@
-﻿[string]$chocoVersion = $(choco --version)
-[string]$majorRelease = $chocoVersion.Split('.')[1]
-[string]$minorRelease = $chocoVersion.Split('.')[2]
-if (-not $majorRelease.Equals("10") -or -not $minorRelease.Equals("3"))
-{
-    write-host "WARNING: This package has only been tested with Chocolatey 0.10.3" -f "Yellow"
-}
-
-$packageName = 'grails'
+﻿$packageName = 'grails'
 $packageVersion = $env:chocolateyPackageVersion
 $checksum = '9CC3F9620BA8261A845BECA3A0D63936B7DC529B41BA1D29B0A9D84C212AC1C7'
 $url = "https://github.com/grails/grails-core/releases/download/v$packageVersion/grails-$packageVersion.zip"
