@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>groovy</id>
-    <version>2.4.8</version>
+    <version>2.4.9</version>
     <title>Groovy</title>
     <authors>Apache Groovy</authors>
     <owners>Lite</owners>
@@ -20,7 +20,7 @@
     <licenseUrl>https://github.com/apache/groovy/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>groovy java lang admin</tags>
-    <releaseNotes>http://www.groovy-lang.org/changelogs/changelog-2.4.8.html</releaseNotes>
+    <releaseNotes>http://www.groovy-lang.org/changelogs/changelog-2.4.9.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
