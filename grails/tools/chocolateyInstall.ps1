@@ -1,6 +1,6 @@
 ﻿$packageName = 'grails'
 $packageVersion = $env:chocolateyPackageVersion
-$checksum = '8412963AF6B423E37AB075AD63DB5F80D7DA3191F4972DB0BFC01D4937C70B65'
+$checksum = 'A21D5602E772676C27F846419A245A4C791BB63B74066F8DD82B7647D5C873A2'
 $url = "https://github.com/grails/grails-core/releases/download/v$packageVersion/grails-$packageVersion.zip"
 $toolsDir = Get-ToolsLocation
 $grails_home = Join-Path $toolsDir "$packageName-$packageVersion"
