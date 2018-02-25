@@ -27,7 +27,7 @@ You can provide parameters for the install, per docs at https://conda.io/docs/us
   * /RegisterPython:[0|1]
   * /D:(installation path)</description>
     <summary>Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for C libraries. Conda is written entirely in Python, and is BSD licensed open source.</summary>
-    <releaseNotes>Now possible to override </releaseNotes>
+    <releaseNotes />
     <copyright>© Copyright 2018, Continuum Analytics.</copyright>
     <tags>conda anaconda miniconda python miniconda3</tags>
   </metadata>
