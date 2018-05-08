@@ -1,5 +1,4 @@
 $packageVersion = $env:chocolateyPackageVersion
-# $packageVersion = '4.3.31'
 $ToolsDir = Get-ToolsLocation
 $pp = Get-PackageParameters
  
@@ -55,10 +54,10 @@ Install-ChocolateyPackage `
     -PackageName 'miniconda3' `
     -InstallerType 'EXE'  `
     -Url "https://repo.continuum.io/miniconda/Miniconda3-$packageVersion-Windows-x86.exe" `
-    -Checksum 'D2FF1B784A649B545C67846FD713707F0B9EAF45DDE7AED09002989673F1D651' `
+    -Checksum '7653010F9AFC4EE9E0010369837C2271A9E6554E4A9467580DD8C392C92B5C25' `
     -ChecksumType 'sha256' `
     -Url64 "https://repo.continuum.io/miniconda/Miniconda3-$packageVersion-Windows-x86_64.exe" `
-    -Checksum64 '39FC8CE44979F79C4A1D1D55EFEEA495E493928968BF1613D27C95B1D02A0385' `
+    -Checksum64 'D0AFADC4B945605F20C0FEAB6D61BB9531A5D449201D33A89195A980DF4AA6C4' `
     -ChecksumType64 'sha256' `
     -SilentArgs "/S /InstallationType=$InstallationType /RegisterPython=$RegisterPython /AddToPath=$AddToPath /D=$D" `
     -ValidExitCodes @(0)
