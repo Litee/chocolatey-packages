@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>grails</id>
-    <version>3.3.4</version>
+    <version>3.3.5</version>
     <title>Grails</title>
     <authors>Graeme Rocher</authors>
     <owners>twistedstream, Lite</owners>
@@ -17,8 +17,10 @@
     <copyright>2009-2018 SpringSource</copyright>
     <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>Grails Groovy Java MVC web admin</tags>
-    <releaseNotes>Upgraded to Grails 3.3.4</releaseNotes>
+    <tags>Grails Groovy Java MVC web</tags>
+    <releaseNotes>https://github.com/grails/grails-core/releases</releaseNotes>
+    <bugTrackerUrl>https://github.com/grails/grails-core/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/grails/grails-core</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
