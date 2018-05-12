@@ -12,8 +12,8 @@
     <tags>flashcards admin</tags>
     <licenseUrl>http://ankisrs.net/docs/changes.html#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->
-    <iconUrl>http://cdn.rawgit.com/TomOne/various/da3b066abd36b5aedf88bd0218218f886efb4fe9/anki.png</iconUrl>
-    <packageSourceUrl>https://github.com/rlpowell/windows_automation/tree/master/chocolatey/anki</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/8cea0a57/anki/anki.png</iconUrl>
+    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/anki</packageSourceUrl>
     <releaseNotes>http://ankisrs.net/docs/changes.html</releaseNotes>
     <docsUrl>http://ankisrs.net/docs/manual.html</docsUrl>
     <bugTrackerUrl>https://anki.tenderapp.com/</bugTrackerUrl>
