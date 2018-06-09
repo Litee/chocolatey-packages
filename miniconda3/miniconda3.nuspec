@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>miniconda3</id>
-    <version>4.5.1</version>
+    <version>4.5.4</version>
     <title>Miniconda (Python 3)</title>
     <authors>Continuum Analytics</authors>
     <owners>Mike Chaliy, Mike Sarahan, Lite</owners>
@@ -20,7 +20,7 @@
   * will install for all users
   * will install in your `$ToolsDir\miniconda3` (`$ToolsDir` is the path returned by `Get-ToolsLocation`) default is `C:\Tools\`
 
-You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html
+You can provide parameters for the install, per docs at https://conda.io/docs/user-guide/install/windows.html. Example: `choco install miniconda3 --params="'/AddToPath:1'"`
 
   * /InstallationType:[AllUsers|JustMe]
   * /AddToPath:[0|1]
