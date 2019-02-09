@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>thrift</id>
-    <version>0.11.0</version>
+    <version>0.12.0</version>
     <title>thrift</title>
     <authors>Apache Software Foundation</authors>
     <owners>Mike Chaliy, Lite</owners>
@@ -16,7 +16,7 @@
 •Consistency Niche, language-specific features belong in extensions, not the core library.
 •Performance Strive for performance first, elegance second.</description>
     <summary>The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.</summary>
-    <copyright>Copyright ©2017 Apache Software Foundation.</copyright>
+    <copyright>Copyright ©2018 Apache Software Foundation.</copyright>
     <tags>thrift</tags>
   </metadata>
   <files>
