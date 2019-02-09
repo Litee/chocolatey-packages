@@ -3,4 +3,4 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 thrift.exe file is a renamed file downloaded from this page: https://thrift.apache.org/download
-Direct download link is http://www.apache.org/dyn/closer.cgi?path=/thrift/0.11.0/thrift-0.11.0.exe
+Direct download link is http://www.apache.org/dyn/closer.cgi?path=/thrift/0.12.0/thrift-0.12.0.exe
