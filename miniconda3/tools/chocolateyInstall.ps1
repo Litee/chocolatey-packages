@@ -1,7 +1,7 @@
 $packageVersion = $env:chocolateyPackageVersion
 $ToolsDir = Get-ToolsLocation
 $pp = Get-PackageParameters
- 
+
 if (!$pp['InstallationType']) {
     $InstallationType = 'AllUsers'
 }
@@ -13,7 +13,7 @@ else {
         $InstallationType = $pp['InstallationType']
     }
 }
- 
+
 if (!$pp['RegisterPython']) {
     $RegisterPython = '1'
 }
@@ -25,7 +25,7 @@ else {
         $RegisterPython = $pp['RegisterPython']
     }
 }
- 
+
 if (!$pp['AddToPath']) {
     $AddToPath = '0'
 }
@@ -37,7 +37,7 @@ else {
         $AddToPath = $pp['AddToPath']
     }
 }
- 
+
 if (!$pp['D']) {
     $D = Join-Path $ToolsDir 'miniconda3'
 }
@@ -54,10 +54,10 @@ Install-ChocolateyPackage `
     -PackageName 'miniconda3' `
     -InstallerType 'EXE'  `
     -Url "https://repo.continuum.io/miniconda/Miniconda3-$packageVersion-Windows-x86.exe" `
-    -Checksum 'F886FA1656ECF3B096296C5751C3BA2F229E203702C9127ADF4C1DFB81B6BC2E' `
+    -Checksum '789a0cafbc4c43fb53facced1a32203865bc1600e5baf70e97e0ce3d64aebd4b' `
     -ChecksumType 'sha256' `
     -Url64 "https://repo.continuum.io/miniconda/Miniconda3-$packageVersion-Windows-x86_64.exe" `
-    -Checksum64 '142A80C6420617B2AAB65C5C56517275023910DC56049255245714A34E550631' `
+    -Checksum64 'a3a8921c2dec37f4ef37b9fa7b337dba237ccacec56bed3d8b8c300ed852c84f' `
     -ChecksumType64 'sha256' `
     -SilentArgs "/S /InstallationType=$InstallationType /RegisterPython=$RegisterPython /AddToPath=$AddToPath /D=$D" `
     -ValidExitCodes @(0)
