@@ -54,10 +54,10 @@ Install-ChocolateyPackage `
     -PackageName 'miniconda3' `
     -InstallerType 'EXE'  `
     -Url "https://repo.continuum.io/miniconda/Miniconda3-$packageVersion-Windows-x86.exe" `
-    -Checksum '789a0cafbc4c43fb53facced1a32203865bc1600e5baf70e97e0ce3d64aebd4b' `
+    -Checksum 'FF851CFE7CB4C21ADBED48CB7F74D7E2EC457D76C02269132E6093E0FE8838C4' `
     -ChecksumType 'sha256' `
     -Url64 "https://repo.continuum.io/miniconda/Miniconda3-$packageVersion-Windows-x86_64.exe" `
-    -Checksum64 'a3a8921c2dec37f4ef37b9fa7b337dba237ccacec56bed3d8b8c300ed852c84f' `
+    -Checksum64 '6263B5C45038A624EB265341EAE5180A87C0FE0A97F1CE4FF0B9B9D91807CFD3' `
     -ChecksumType64 'sha256' `
     -SilentArgs "/S /InstallationType=$InstallationType /RegisterPython=$RegisterPython /AddToPath=$AddToPath /D=$D" `
     -ValidExitCodes @(0)
