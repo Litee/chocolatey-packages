@@ -1,5 +1,5 @@
-﻿$checksum = 'f03ec672079c1a27a308519bb42d7439f4c3401dbb83947c5f15defbf3d6a19e'
-$url = 'https://apps.ankiweb.net/downloads/current/anki-2.1.13-windows.exe'
+﻿$checksum = '5672638094c9b40ef6fa50236b4c4dcf938e028aeee79209dc0cda6ac4983b99'
+$url = 'https://apps.ankiweb.net/downloads/current/anki-2.1.15-windows.exe'
 
 Install-ChocolateyPackage `
 	-PackageName 'anki' `
