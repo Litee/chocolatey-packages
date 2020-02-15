@@ -2,19 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>groovy</id>
-    <version>2.5.7</version>
+    <version>3.0.0</version>
     <title>Groovy</title>
     <authors>Apache Groovy</authors>
     <owners>Lite</owners>
     <summary>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</summary>
-    <description><![CDATA[1. Download a binary - e.g. `apache-groovy-binary-2.4.13.zip`
-1. Run `checksum -t=sha256 apache-groovy-binary-2.4.13.zip`, copy the resulting hash
-1. Edit to `install.ps1` file - update the hash
-1. Edit to `.nuspec` file - update version
-1. Run `cpack` command in folder with `.nuspec` file
-1. Upload the resulting `.nupkg` file to Chocolatey site. You will be recieving e-mail as package got uploaded, passes tests and finally got approved
-1. Commit changes into GitHub. Do not forget to tag the version.
-]]></description>
+    <description><![CDATA[Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.]]></description>
     <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/groovy</packageSourceUrl>
     <projectSourceUrl>https://github.com/apache/groovy</projectSourceUrl>
@@ -22,7 +15,7 @@
     <copyright>2003-2019 the Apache Groovy project</copyright>
     <licenseUrl>https://github.com/apache/groovy/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>groovy java lang admin</tags>
+    <tags>groovy java</tags>
     <releaseNotes>http://www.groovy-lang.org/changelogs/</releaseNotes>
   </metadata>
   <files>
