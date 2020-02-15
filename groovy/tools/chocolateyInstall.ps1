@@ -1,7 +1,7 @@
 ﻿$packageName = 'groovy'
 $packageVersion = $env:chocolateyPackageVersion
-$checksum = '3d905dfe4f739c8c0d9dd181e6687ac816e451bf327a9ec0740da473cfebc9e0'
-$url = 'https://dl.bintray.com/groovy/maven/apache-groovy-binary-2.5.7.zip'
+$checksum = 'f4b2211e7651ed4ec7728c96c1e1961795c4a9de7b0cad6d399df8e92001d682'
+$url = 'https://dl.bintray.com/groovy/maven/apache-groovy-binary-3.0.0.zip'
 $toolsDir = Get-ToolsLocation
 $groovy_home = Join-Path $toolsDir "$packageName-$packageVersion"
 $groovy_bat = Join-Path $groovy_home 'bin/groovy.bat'
