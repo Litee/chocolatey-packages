@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>gitkraken</id>
-    <version>6.5.1</version>
+    <version>7.1.0</version>
     <title>GitKraken</title>
     <authors>Axosoft</authors>
     <owners>kenvord, Lite</owners>
@@ -15,6 +15,6 @@
     <summary>The intuitive, fast, and beautiful cross-platform Git client.</summary>
     <releaseNotes>http://www.gitkraken.com/release-notes</releaseNotes>
     <tags>git client gui</tags>
-    <copyright>2019 Axosoft, LLC</copyright>
+    <copyright>2020 Axosoft, LLC</copyright>
   </metadata>
 </package>
