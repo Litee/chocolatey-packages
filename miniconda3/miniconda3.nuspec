@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>miniconda3</id>
-    <version>4.7.12</version>
-    <title>Miniconda (Python 3)</title>
+    <version>4.8.3</version>
+    <title>Miniconda (Python 3.8)</title>
     <authors>Continuum Analytics</authors>
     <owners>Mike Chaliy, Mike Sarahan, Lite</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
@@ -13,7 +13,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Conda is a cross-platform, Python-agnostic binary package manager by Continuum.
 
-    IMPORTANT: Starting version 4.31.1.2 package will be using same installation approach as parent Anaconda packages. By default, this installation:
+By default, this installation:
 
   * will not add miniconda python to path,
   * will register miniconda python at default python3
@@ -28,7 +28,7 @@ You can provide parameters for the install, per docs at https://conda.io/docs/us
   * /D:(installation path)</description>
     <summary>Conda is a cross-platform, Python-agnostic binary package manager. It is the package manager used by Anaconda installations, but it may be used for other systems as well. Conda makes environments first-class citizens, making it easy to create independent environments even for C libraries. Conda is written entirely in Python, and is BSD licensed open source.</summary>
     <releaseNotes />
-    <copyright>© Copyright 2019, Continuum Analytics.</copyright>
+    <copyright>© Copyright 2020, Continuum Analytics.</copyright>
     <tags>conda anaconda miniconda python miniconda3</tags>
   </metadata>
   <files>
