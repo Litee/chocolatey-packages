@@ -1,7 +1,7 @@
 ﻿$packageName = 'groovy'
 $packageVersion = $env:chocolateyPackageVersion
 $checksum = 'F7FFAED8AA63611BF68BEF0DB512AB979926C6E8778393FE573C553B9BD39E10'
-$url = 'https://dl.bintray.com/groovy/maven/apache-groovy-binary-3.0.5.zip'
+$url = 'https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-3.0.5.zip'
 $toolsDir = Get-ToolsLocation
 $groovy_home = Join-Path $toolsDir "$packageName-$packageVersion"
 $groovy_bat = Join-Path $groovy_home 'bin/groovy.bat'
