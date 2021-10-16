@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: Litee/chocolatey-packages
   github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: l34bEUi+1lr0yL+KC+GOAPzHEyM8fhNXjA58fhsW4cSXg3J+BqTa7dZlJHAwlhOC #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications

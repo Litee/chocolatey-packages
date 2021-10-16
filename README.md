@@ -1,7 +1,7 @@
 # Chocolatey packages supported by Litee
 
 [![](https://ci.appveyor.com/api/projects/status/github/Litee/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Litee/chocolatey-packages)
-[Update status](https://gist.github.com/Litee/YOUR_GIST_ID_HERE)
+[Update status](https://gist.github.com/Litee/7c2d64ac8e499e929b52a9f6a4a2cba1)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/Litee](https://chocolatey.org/profiles/Litee)
 
