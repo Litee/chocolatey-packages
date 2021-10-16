@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://www.groovy-lang.org/download.html'
+$releases = 'https://groovy.apache.org/download.html'
 
 function global:au_SearchReplace {
     @{
@@ -14,7 +14,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
 
-    $url = $download_page.links | Where-Object href -match 'apache-groovy-binary-(\d+\.\d+\.\d+)\.zip$' | ForEach-Object href | Select-Object -First 1
+    $url = $download_page.links | Where-Object href -match 'apache-groovy-binary-3\.\d+\.\d+\.zip$' | ForEach-Object href | Select-Object -First 1
     $version = ([regex]::Match($url, '(\d+\.\d+\.\d+)\.zip$')).Groups[1].Value
 
     @{
