@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>groovy</id>
+    <version>3.0.9</version>
+    <title>Groovy</title>
+    <authors>Apache Groovy</authors>
+    <owners>Lite</owners>
+    <summary>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</summary>
+    <description>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</description>
+    <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
+    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/groovy</packageSourceUrl>
+    <projectSourceUrl>https://github.com/apache/groovy</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/groovy/groovy-logo.png</iconUrl>
+    <copyright>2003-2021 the Apache Groovy project</copyright>
+    <licenseUrl>https://github.com/apache/groovy/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>groovy java</tags>
+    <releaseNotes>http://www.groovy-lang.org/changelogs/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,4 +1,7 @@
 *.nupkg
-Update-AUPackages.md
-Update-History.md
+api_key
 update_info.xml
+update_vars.ps1
+Update-AUPackages.md
+Update-Force-Test*
+Update-History.md
