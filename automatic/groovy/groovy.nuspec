@@ -19,6 +19,7 @@
     <releaseNotes>http://www.groovy-lang.org/changelogs/</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

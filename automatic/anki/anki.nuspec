@@ -19,4 +19,8 @@
     <bugTrackerUrl>https://anki.tenderapp.com/</bugTrackerUrl>
     <projectSourceUrl>https://github.com/dae/anki</projectSourceUrl>
   </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
