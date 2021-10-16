@@ -14,7 +14,7 @@
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/grails</packageSourceUrl>
     <projectUrl>http://grails.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/grails/grails-logo.jpg</iconUrl>
-    <copyright>2009-2019 SpringSource</copyright>
+    <copyright>2009-2021 SpringSource</copyright>
     <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>Grails Groovy Java MVC web</tags>
@@ -23,6 +23,7 @@
     <projectSourceUrl>https://github.com/grails/grails-core</projectSourceUrl>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
