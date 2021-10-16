@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>grails</id>
+    <version>4.0.6</version>
+    <title>Grails</title>
+    <authors>Graeme Rocher</authors>
+    <owners>twistedstream, Lite</owners>
+    <summary>Grails is an Open Source, full stack, web application framework for the JVM.</summary>
+    <description>Grails is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.
+      This package assumes that the Java JDK has already been installed and that the JAVA\_HOME machine environment variable is pointing to installed JDK. I do not reference JDK Chocolatey package here to stay flexible.
+      The specific Grails version will be installed to folder defined by %chocolatey\_bin\_root% environment variable. After installing, this package will set the GRAILS\_HOME environment variable and will add the GRAILS\_HOME\bin folder to the machine PATH.
+    </description>
+    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/grails</packageSourceUrl>
+    <projectUrl>http://grails.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/grails/grails-logo.jpg</iconUrl>
+    <copyright>2009-2019 SpringSource</copyright>
+    <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>Grails Groovy Java MVC web</tags>
+    <releaseNotes>https://github.com/grails/grails-core/releases</releaseNotes>
+    <bugTrackerUrl>https://github.com/grails/grails-core/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/grails/grails-core</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
