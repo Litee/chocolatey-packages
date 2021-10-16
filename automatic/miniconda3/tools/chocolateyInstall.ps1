@@ -1,8 +1,8 @@
 ﻿$packageVersion = $env:chocolateyPackageVersion
-$url32 = 'https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Windows-x86.exe'
-$checksum32 = '24f438e57ff2ef1ce1e93050d4e9d13f5050955f759f448d84a4018d3cd12d6b'
-$url64 = 'https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Windows-x86_64.exe'
-$checksum64 = 'b33797064593ab2229a0135dc69001bea05cb56a20c2f243b1231213642e260a'
+$url32 = 'PLACEHOLDER'
+$checksum32 = 'PLACEHOLDER'
+$url64 = 'PLACEHOLDER'
+$checksum64 = 'PLACEHOLDER'
 $ToolsDir = Get-ToolsLocation
 $pp = Get-PackageParameters
 
