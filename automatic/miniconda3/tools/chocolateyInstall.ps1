@@ -1,4 +1,8 @@
-$packageVersion = $env:chocolateyPackageVersion
+﻿$packageVersion = $env:chocolateyPackageVersion
+$url32 = 'https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Windows-x86.exe'
+$checksum32 = '24f438e57ff2ef1ce1e93050d4e9d13f5050955f759f448d84a4018d3cd12d6b'
+$url64 = 'https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Windows-x86_64.exe'
+$checksum64 = 'b33797064593ab2229a0135dc69001bea05cb56a20c2f243b1231213642e260a'
 $ToolsDir = Get-ToolsLocation
 $pp = Get-PackageParameters
 
@@ -53,11 +57,11 @@ else {
 Install-ChocolateyPackage `
     -PackageName 'miniconda3' `
     -InstallerType 'EXE'  `
-    -Url "https://repo.continuum.io/miniconda/Miniconda3-py38_$packageVersion-Windows-x86.exe" `
-    -Checksum '9C2EF76BAE97246C85C206733CA30FD1FEB8A4B3F90A2A511FEA681CE7EBC661' `
+    -Url $url32 `
+    -Checksum $checksum32 `
     -ChecksumType 'sha256' `
-    -Url64 "https://repo.continuum.io/miniconda/Miniconda3-py38_$packageVersion-Windows-x86_64.exe" `
-    -Checksum64 '4FA22BBA0497BABB5B6608CB8843545372A99F5331C8120099AE1D803F627C61' `
+    -Url64 $url64 `
+    -Checksum64 $checksum64 `
     -ChecksumType64 'sha256' `
     -SilentArgs "/S /InstallationType=$InstallationType /RegisterPython=$RegisterPython /AddToPath=$AddToPath /D=$D" `
     -ValidExitCodes @(0)
