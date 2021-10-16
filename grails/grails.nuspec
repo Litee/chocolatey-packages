@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>grails</id>
-    <version>4.0.4</version>
+    <version>4.0.6</version>
     <title>Grails</title>
     <authors>Graeme Rocher</authors>
     <owners>twistedstream, Lite</owners>
