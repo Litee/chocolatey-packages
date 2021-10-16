@@ -3,7 +3,7 @@
   <metadata>
     <id>miniconda3</id>
     <version>4.10.3</version>
-    <title>Miniconda (Python 3.8)</title>
+    <title>Miniconda (Python 3.9)</title>
     <authors>Continuum Analytics</authors>
     <owners>Mike Chaliy, Mike Sarahan, Lite</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
