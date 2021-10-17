@@ -9,7 +9,7 @@
     <summary>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</summary>
     <description>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</description>
     <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
-    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/groovy</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/groovy</packageSourceUrl>
     <projectSourceUrl>https://github.com/apache/groovy</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/groovy/groovy-logo.png</iconUrl>
     <copyright>2003-2021 the Apache Groovy project</copyright>

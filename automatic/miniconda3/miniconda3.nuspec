@@ -8,7 +8,7 @@
     <owners>Mike Chaliy, Mike Sarahan, Lite</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>http://conda.pydata.org/miniconda.html</projectUrl>
-    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/miniconda3</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/miniconda3</packageSourceUrl>
     <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/miniconda3/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Conda is a cross-platform, Python-agnostic binary package manager by Continuum.
