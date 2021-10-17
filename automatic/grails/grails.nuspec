@@ -13,7 +13,7 @@
     </description>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/grails</packageSourceUrl>
     <projectUrl>http://grails.org/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/grails/grails-logo.jpg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/automatic/grails/grails-logo.jpg</iconUrl>
     <copyright>2009-2021 SpringSource</copyright>
     <licenseUrl>https://github.com/grails/grails-core/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

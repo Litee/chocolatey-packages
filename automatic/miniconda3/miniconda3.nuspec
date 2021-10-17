@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>miniconda3</id>
-    <version>4.10.3</version>
+    <version>4.10.3.20211017</version>
     <title>Miniconda (Python 3.9)</title>
     <authors>Continuum Analytics</authors>
     <owners>Mike Chaliy, Mike Sarahan, Lite</owners>
     <licenseUrl>https://github.com/conda/conda/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>http://conda.pydata.org/miniconda.html</projectUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/miniconda3</packageSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/miniconda3/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/automatic/miniconda3/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Conda is a cross-platform, Python-agnostic binary package manager by Continuum.
 
