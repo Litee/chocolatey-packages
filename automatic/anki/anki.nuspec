@@ -12,7 +12,7 @@
     <tags>flashcards admin</tags>
     <licenseUrl>http://ankisrs.net/docs/changes.html#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->
-    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/8cea0a57/anki/anki.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/8cea0a57/automatic/anki/anki.png</iconUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/anki</packageSourceUrl>
     <releaseNotes>http://ankisrs.net/docs/changes.html</releaseNotes>
     <docsUrl>http://ankisrs.net/docs/manual.html</docsUrl>

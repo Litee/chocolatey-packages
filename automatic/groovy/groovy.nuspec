@@ -11,7 +11,7 @@
     <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/groovy</packageSourceUrl>
     <projectSourceUrl>https://github.com/apache/groovy</projectSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/groovy/groovy-logo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Litee/chocolatey-packages/master/automatic/groovy/groovy-logo.png</iconUrl>
     <copyright>2003-2021 the Apache Groovy project</copyright>
     <licenseUrl>https://github.com/apache/groovy/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
