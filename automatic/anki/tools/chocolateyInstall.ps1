@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 $installDir            = "$env:ProgramFiles\Anki"
-$checksum              = '3c9764cb4746cfa4059633678b9dcdc0ae5754e61d99855cb0c40fa6bfd33f5e'
-$version               = '2.1.49'
+$checksum              = '892c1297f23ca0bf69a1495b480afbb255c23adc03ba5a786b5c6b8f2024f07a'
+$version               = '2.1.50'
 $silentArgs            = '/S'
 
 $additionalArgs = Get-PackageParameters
@@ -14,7 +14,7 @@ Install-ChocolateyPackage `
 	-PackageName 'anki' `
 	-FileType 'exe' `
 	-SilentArgs $silentArgs  `
-	-Url "https://github.com/ankitects/anki/releases/download/$version/anki-$version-windows.exe" `
+	-Url "https://github.com/ankitects/anki/releases/download/$version/anki-$version-windows-qt5.exe" `
 	-Checksum $checksum `
 	-ChecksumType 'sha256'
 
