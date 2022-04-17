@@ -14,7 +14,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
 
-    $url   = $download_page.links | Where-Object href -match '4\.\d+\.\d+\.zip$' | ForEach-Object href | Select-Object -First 1
+    $url   = $download_page.links | Where-Object href -match '5\.\d+\.\d+\.zip$' | ForEach-Object href | Select-Object -First 1
     $version = (Split-Path ( Split-Path $url ) -Leaf).Substring(1)
 
     @{
