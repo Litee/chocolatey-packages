@@ -1,7 +1,7 @@
 ﻿$packageName = 'groovy'
 $packageVersion = $env:chocolateyPackageVersion
-$checksum = 'EB34F4EE229B1A424ADB87DF5B999F66D1B1285694E5332D0800896744C2E421'
-$url = 'https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-3.0.9.zip'
+$checksum = '0568ca2c2adfed3f82a7d60c7d0cb512666c06326a7207fad0802e0e0b2f4d04'
+$url = 'https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-3.0.14.zip'
 $toolsDir = Get-ToolsLocation
 $groovy_home = Join-Path $toolsDir "$packageName-$packageVersion"
 $groovy_bat = Join-Path $groovy_home 'bin/groovy.bat'

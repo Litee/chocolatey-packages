@@ -2,12 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>groovy</id>
-    <version>3.0.9</version>
+    <version>3.0.14</version>
     <title>Groovy</title>
     <authors>Apache Groovy</authors>
     <owners>Lite</owners>
     <summary>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</summary>
-    <description>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform.</description>
+    <description><![CDATA[1. Download a binary - e.g. `apache-groovy-binary-2.4.13.zip`
+1. Run `checksum -t=sha256 apache-groovy-binary-2.4.13.zip`, copy the resulting hash
+1. Edit to `install.ps1` file - update the hash
+1. Edit to `.nuspec` file - update version
+1. Run `cpack` command in folder with `.nuspec` file
+1. Upload the resulting `.nupkg` file to Chocolatey site. You will be recieving e-mail as package got uploaded, passes tests and finally got approved
+1. Commit changes into GitHub. Do not forget to tag the version.
+]]></description>
     <projectUrl>http://www.groovy-lang.org/index.html</projectUrl>
     <packageSourceUrl>https://github.com/Litee/chocolatey-packages/tree/master/automatic/groovy</packageSourceUrl>
     <projectSourceUrl>https://github.com/apache/groovy</projectSourceUrl>
